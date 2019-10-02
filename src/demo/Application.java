@@ -1,5 +1,6 @@
 package tuto_git;
 
+import demo.View;
 import java.awt.Frame;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -26,7 +27,7 @@ public class Application extends Frame implements WindowListener {
             y = x + 5;
 
             modl.addObserver(view);
-
+this.addWindowListener(this);
             view.addActionListener(ctrl);
 
             this.add(view);
@@ -43,7 +44,9 @@ public class Application extends Frame implements WindowListener {
 	public void windowClosed(WindowEvent e) {}
 
 	@Override
-	public void windowClosing(WindowEvent e) {}
+	public void windowClosing(WindowEvent e) {
+        System.exit(0);
+        }
 
 	@Override
 	public void windowDeactivated(WindowEvent e) {}
