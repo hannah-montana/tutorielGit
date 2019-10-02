@@ -19,6 +19,9 @@ public class Application extends Frame implements WindowListener {
 		Controller ctrl = new Controller(modl); 
 		
 		View view = new View();
+                
+                int x = 5;
+                x++;
 		
 		modl.addObserver(view);
 		
