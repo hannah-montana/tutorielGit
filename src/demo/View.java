@@ -1,4 +1,4 @@
-package tuto_git;
+package demo;
 
 import java.awt.Button;
 import java.awt.Dimension;
@@ -8,9 +8,12 @@ import java.util.Observer;
 public class View extends Button implements Observer {
 	
 	public View() {
-		super();
-		this.setLabel("0");
-		this.setPreferredSize(new Dimension(120,60));
+            super();
+            this.setLabel("0");
+            this.setPreferredSize(new Dimension(120,60));
+            
+            String ss = "Binh";
+            
 	}
 
 	@Override
