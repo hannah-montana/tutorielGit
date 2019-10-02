@@ -17,6 +17,7 @@ public class View extends Button implements Observer {
                 int t = 15;
                 int m = z +t;
                 String  word = "This is the first demo";
+                String binh = "be binh";
 	}
 
 	@Override
