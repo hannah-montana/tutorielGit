@@ -11,6 +11,10 @@ public class View extends Button implements Observer {
 		super();
 		this.setLabel("0");
 		this.setPreferredSize(new Dimension(120,60));
+                
+                int z = 10;
+                int t = 15;
+                int m = z +t;
 	}
 
 	@Override
