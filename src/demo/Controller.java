@@ -1,4 +1,4 @@
-package tuto_git;
+package demo;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

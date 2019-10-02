@@ -1,4 +1,4 @@
-package tuto_git;
+package demo;
 
 import java.awt.Frame;
 import java.awt.event.WindowEvent;
