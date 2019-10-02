@@ -12,26 +12,28 @@ public class Application extends Frame implements WindowListener {
 	
 	public Application() 
 	{
-		super();
-		
-		Model modl = new Model();
-		
-		Controller ctrl = new Controller(modl); 
-		
-		View view = new View();
-                
-                int x = 5;
-                x++;
-		
-		modl.addObserver(view);
-		
-		view.addActionListener(ctrl);
-		
-		this.add(view);
-		
-		this.pack();
-		this.setTitle("The clic game");
-		this.setVisible(true);	
+            super();
+
+            Model modl = new Model();
+
+            Controller ctrl = new Controller(modl); 
+
+            View view = new View();
+
+            int x = 5;
+            x++;
+            int y =0;
+            y = x + 5;
+
+            modl.addObserver(view);
+
+            view.addActionListener(ctrl);
+
+            this.add(view);
+
+            this.pack();
+            this.setTitle("The clic game");
+            this.setVisible(true);	
 	}
 
 	@Override
