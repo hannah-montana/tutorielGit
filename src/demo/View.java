@@ -8,12 +8,15 @@ import java.util.Observer;
 public class View extends Button implements Observer {
 	
 	public View() {
-            super();
-            this.setLabel("0");
-            this.setPreferredSize(new Dimension(120,60));
-            
-            String ss = "Binh";
-            
+
+		super();
+		this.setLabel("0");
+		this.setPreferredSize(new Dimension(120,60));
+                
+                int z = 10;
+                int t = 15;
+                int m = z +t;
+                String  word = "This is the first demo";
 	}
 
 	@Override
